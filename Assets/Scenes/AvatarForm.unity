@@ -2021,7 +2021,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.781
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2828,6 +2828,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1617181683}
   - component: {fileID: 1617181682}
+  - component: {fileID: 1617181684}
   m_Layer: 0
   m_Name: Connector
   m_TagString: Untagged
@@ -2863,6 +2864,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1617181684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617181681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b04d4df1ef09774a909c0bdcbd69db3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameInput: {fileID: 1323595355}
+  avatarClass: {fileID: 742032762}
+  experience: {fileID: 1000868585}
+  submit: {fileID: 11954711}
 --- !u!1 &1730541393
 GameObject:
   m_ObjectHideFlags: 0
